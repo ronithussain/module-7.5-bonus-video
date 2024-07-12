@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Elements</title>
+    <style>
+        h3::after{
+            content: 'Hussain';
+            color: magenta;
+            background: burlywood;
+            font-size: 15px;
+        }
+        h3::before{
+            content: 'Hussain';
+            color: white;
+            background:red;
+            font-size: 20px;
+        }
+        p::first-letter{
+            font-size: 2em;
+        }
+        p::first-line{
+            background: aqua;
+        }
+        ::selection{
+            background: gray;
+        }
+        input::placeholder{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h2>Pseudo-Elements</h2>
+    <h3>Heading-1</h3>
+    <h3>Heading-2</h3>
+    <h3>Heading-3</h3>
+    <input type="text" placeholder="iam a student of honors 2nd year in your university">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam hic, cum necessitatibus quasi sunt qui repellat id aperiam praesentium esse.</p>
+    <p>Itaque fugiat nihil, illo obcaecati officiis esse optio qui laborum, deleniti necessitatibus repellendus? Obcaecati suscipit, a quae tempore perferendis laborum?</p>
+    <p>Nam soluta aliquid sit in fugiat facilis, omnis delectus impedit, rem placeat illum praesentium, quod eveniet ea laborum provident. Esse!</p>
+</body>
+</html>
