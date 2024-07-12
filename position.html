@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positions</title>
+    <style>
+        .box img{
+            height: 100px;
+            width: 200px;
+            border: 2px dotted tomato;
+        }
+        /* .hablu{
+            position: relative;
+            left: 40px;
+            top: -50px;
+        } */
+         /* .hablu{
+            position: absolute;
+            top: 50px;
+            left: 60px;
+         } */
+         .position-container{
+            position: relative;
+            border: 3px solid purple;
+         }
+         .dummy{
+            border: 2px solid magenta;
+            width: 200px;
+            height: 200px;
+         }
+         /* .hablu{
+            position: sticky;
+            top: 0px;
+         } */
+         .another{
+            border: 2px solid yellow;
+         }
+         .hablu{
+            position: fixed;
+            top: 100px;
+            left: 60px;
+         }
+    </style>
+</head>
+<body>
+    <h3>Css Positions</h3>
+   <ol>
+    <!-- flow related -->
+    <li>Static</li>
+    <li>Relative</li>       
+    <li>Absolute</li>
+    <!-- scrool related -->
+    <li>Fixed</li>
+    <li>Sticky</li>
+   </ol>
+  <div class="position-container">
+    <div class="box download">
+        <img src="images/download.webp" alt="">
+       </div>
+       <div class="box hablu">
+        <img src="images/hablu.jpg" alt="">
+       </div>
+       <div class="box pexels">
+        <img src="images/pexels-photo-440731.jpeg" alt=""> 
+       </div>
+       <div class="dummy"></div>
+       <div class="dummy"></div>
+       <div class="dummy"></div>
+       <div class="dummy"></div>
+       <div class="dummy"></div>
+       <div class="dummy"></div>
+       <div class="dummy"></div>
+       <div class="dummy"></div>
+       <div class="dummy"></div>
+       <div class="dummy"></div>
+       <div class="dummy"></div>
+       <div class="dummy"></div>
+       <div class="dummy"></div>
+       <div class="dummy"></div>
+       <div class="dummy"></div>
+  </div>
+  <div class="another">
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+  </div>
+</body>
+</html>
