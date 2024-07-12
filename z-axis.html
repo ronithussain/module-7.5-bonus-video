@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-axis</title>
+    <style>
+        .box img{
+            height: 100px;
+            width: 200px;
+            border: 5px solid sienna;
+        }
+        .box{
+            position: relative;
+        }
+        .hablu{
+            top: -50px;
+            z-index: 5;
+        }
+        .download{
+            z-index: 10;
+        }
+        .pexels{
+            top: -100px;
+        }
+    </style>
+</head>
+<body>
+    <h3> Z-index</h3>
+    <div class="position-container">
+        <div class="box download">
+            <img src="images/download.webp" alt="">
+           </div>
+           <div class="box hablu">
+            <img src="images/hablu.jpg" alt="">
+           </div>
+           <div class="box pexels">
+            <img src="images/pexels-photo-440731.jpeg" alt=""> 
+           </div>
+    </div>
+</body>
+</html>
